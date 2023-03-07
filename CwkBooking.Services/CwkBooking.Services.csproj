@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Threading.Tasks" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CwkBooking.DAL\CwkBooking.DAL.csproj" />
+    <ProjectReference Include="..\CwkBooling.Domain\CwkBooling.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
